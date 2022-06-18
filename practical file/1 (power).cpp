@@ -30,7 +30,7 @@ double pwr(int p, double n)
 }
 int main()
 {
-    char name;
+    string name;
     int roll_no;
     cout << "Enter Name - ";
     cin >> name;
