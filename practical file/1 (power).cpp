@@ -31,11 +31,13 @@ double pwr(int p, double n)
 int main()
 {
     string name;
-    int roll_no;
-    cout << "Enter Name - ";
+    int rollNo;
+
+    cout << "Name - ";
     cin >> name;
-    cout << "Enter Roll No - ";
-    cin >> roll_no;
+    cout << "RollNo - ";
+    cin >> rollNo;
+
     
     int p;
     double n;

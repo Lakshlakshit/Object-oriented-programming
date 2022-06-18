@@ -45,9 +45,5 @@ int main()
     }
     t.printDetails();
 
-    cout << endl
-         << "ToolBooth Name - "; // Enter your name here
-    cout << endl
-         << "ToolBooth No. - " << endl; // Enter your roll no here
     return 0;
 }

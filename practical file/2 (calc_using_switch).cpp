@@ -6,13 +6,13 @@ int main()
     int x, y, result;
     char opr;
 
-    // User Details
-    char name;
-    int roll_no;
-    cout << "Enter Name - ";
+    string name;
+    int rollNo;
+
+    cout << "Name - ";
     cin >> name;
-    cout << "Enter Roll No - ";
-    cin >> roll_no;
+    cout << "RollNo - ";
+    cin >> rollNo;
 
     cout << "enter 1st number : " << endl;
     cin >> x;

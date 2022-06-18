@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    char name;
-    int roll_no;
-    cout << "Enter Name - ";
+    string name;
+    int rollNo;
+
+    cout << "Name - ";
     cin >> name;
-    cout << "Enter Roll No - ";
-    cin >> roll_no;
+    cout << "RollNo - ";
+    cin >> rollNo;
 
     while (true)
     {

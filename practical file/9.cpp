@@ -27,12 +27,17 @@ public:
         int c = strcmp(str, str1.str) == 0 ? 1 : 0;
         return c;
     }
-
-
 };
 
 int main()
 {
+    string name;
+    int rollNo;
+
+    cout << "Name - ";
+    cin >> name;
+    cout << "RollNo - ";
+    cin >> rollNo;
 
     Mystring str1("delhi"), str2(" INDIA");
     Mystring strs = str1 + str2;
@@ -41,12 +46,6 @@ int main()
         cout << "\nstring are equal\n";
     else
         cout << "\nstring are not equal\n";
-
-
-    cout << endl
-		 << "Name - "; // Enter your name here
-	cout << endl
-		 << "Roll No. - "; // Enter your roll no here
 
     return 0;
 }

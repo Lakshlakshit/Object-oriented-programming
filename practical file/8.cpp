@@ -58,6 +58,14 @@ public:
 int main()
 {
 
+    string name;
+    int rollNo;
+
+    cout << "Name - ";
+    cin >> name;
+    cout << "RollNo - ";
+    cin >> rollNo;
+    
     Complex c1(1, 1), c2(1, 1);
     Complex res = c1 * c2;
     Complex c5 = c1 + c2;
@@ -74,8 +82,5 @@ int main()
     cout << "* overload" << endl;
     cout << res.real << "" << res.img << endl;
 
-    cout << endl
-		 << "Name - "; // Enter your name here
-	cout << endl
-		 << "Roll No. - "; // Enter your roll no here
+
 }

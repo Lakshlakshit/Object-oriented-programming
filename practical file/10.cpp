@@ -35,10 +35,14 @@ class Rational{
 };
 int main(){
 
-    cout << endl
-		 << "Name - "; // Enter your name here
-	cout << endl
-		 << "Roll No. - "; // Enter your roll no here
+    string name;
+    int rollNo;
+
+    cout << "Name - ";
+    cin >> name;
+    cout << "RollNo - ";
+    cin >> rollNo;
+
 
     
     int num1,den1,num2,den2,num3,den3;

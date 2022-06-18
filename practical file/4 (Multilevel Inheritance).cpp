@@ -28,9 +28,13 @@ int main()
   MyChildClass myObj;
   myObj.myFunction();
   myObj.myOtherFunction();
-  cout << endl
-       << "Name - "; // Enter your name here
-  cout << endl
-       << "Roll No. - "; // Enter your roll no here
+
+  string name;
+  int rollNo;
+
+  cout << "Name - ";
+  cin >> name;
+  cout << "RollNo - ";
+  cin >> rollNo;
   return 0;
 }
